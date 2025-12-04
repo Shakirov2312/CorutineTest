@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\assets\\scripts\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\assets\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|c:\\users\\ilyas\\desktop\\unityportfolio\\corutinetimer\\assets\\scripts\\countview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\assets\\scripts\\countview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\assets\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|c:\\users\\ilyas\\desktop\\unityportfolio\\corutinetimer\\assets\\scripts\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Counter.cs",
               "DocumentMoniker": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Scripts\\Counter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Counter.cs",
               "ToolTip": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Scripts\\Counter.cs",
               "RelativeToolTip": "Assets\\Scripts\\Counter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAFAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwCgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T15:32:14.546Z",
               "IsPinned": true,
@@ -53,7 +53,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "InputReader.cs",
               "DocumentMoniker": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Scripts\\InputReader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputReader.cs",

@@ -10,6 +10,8 @@ public class Counter : MonoBehaviour
 
     public event Action ValueChanges;
 
+    private Coroutine _coroutine;
+
     public float Count { get; private set; }
 
     private void OnEnable()
@@ -27,16 +29,16 @@ public class Counter : MonoBehaviour
         _isWork = !_isWork;
 
         if (_isWork)
-            StartCoroutine("ReadCounter");
+            _coroutine = StartCoroutine("ReadCounter");
         else
-            StopCoroutine("ReadCounter");
+            StopCoroutine(_coroutine);
     }
 
     private IEnumerator ReadCounter()
     {
         var delay = new WaitForSeconds(_delay);
 
-        for(; ; )
+        while(_isWork)
         {
             Count++;
             ValueChanges?.Invoke();
