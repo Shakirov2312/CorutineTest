@@ -8,12 +8,12 @@ public class CountView : MonoBehaviour
     
     private void OnEnable()
     {
-        _counter.AccountChanges += CountDisplay;
+        _counter.ValueChanges += CountDisplay;
     }
 
     private void OnDisable()
     {
-        _counter.AccountChanges -= CountDisplay;
+        _counter.ValueChanges -= CountDisplay;
     }
 
     private void CountDisplay()

@@ -5,40 +5,43 @@ using System;
 public class Counter : MonoBehaviour
 {
     [SerializeField] private float _delay;
-    [SerializeField] private onButtonClikc _click;
+    [SerializeField] private InputReader _click;
+    [SerializeField] private bool _isWork;
 
-    public event Action AccountChanges;
+    public event Action ValueChanges;
 
     public float Count { get; private set; }
 
-    public void TimerControlButton()
-    {
-        if(_click.IsWork)
-            StartCoroutine(ReadCounter(_click.IsWork));
-        else
-            StopAllCoroutines();
-    }
-
-    private IEnumerator ReadCounter( bool isWork)
-    {
-        var delay = new WaitForSeconds(_delay);
-
-        while(isWork)
-        {
-            Count++;
-            AccountChanges?.Invoke();
-
-            yield return delay;
-        }
-    }
-
     private void OnEnable()
     {
-        _click.AmoundButtonClick += TimerControlButton;
+        _click.AmoundButtonClick += TrakTimer;
     }
 
     private void OnDisable()
     {
-        _click.AmoundButtonClick -= TimerControlButton;
+        _click.AmoundButtonClick -= TrakTimer;
+    }
+
+    public void TrakTimer()
+    {
+        _isWork = !_isWork;
+
+        if (_isWork)
+            StartCoroutine("ReadCounter");
+        else
+            StopCoroutine("ReadCounter");
+    }
+
+    private IEnumerator ReadCounter()
+    {
+        var delay = new WaitForSeconds(_delay);
+
+        for(; ; )
+        {
+            Count++;
+            ValueChanges?.Invoke();
+
+            yield return delay;
+        }
     }
 }
