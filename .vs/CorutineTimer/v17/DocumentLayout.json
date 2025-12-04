@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|c:\\users\\ilyas\\desktop\\unityportfolio\\corutinetimer\\assets\\counttimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|solutionrelative:assets\\counttimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|c:\\users\\ilyas\\desktop\\unityportfolio\\corutinetimer\\assets\\scripts\\countview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|c:\\users\\ilyas\\desktop\\unityportfolio\\corutinetimer\\assets\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\assets\\scripts\\onbuttonclikc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D84EA6-5912-0DFD-ADD8-00E73004B01E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\onbuttonclikc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Scripts\\CounView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CounView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CountTimer.cs",
-              "DocumentMoniker": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\CountTimer.cs",
-              "RelativeDocumentMoniker": "Assets\\CountTimer.cs",
-              "ToolTip": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\CountTimer.cs",
-              "RelativeToolTip": "Assets\\CountTimer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "DocumentIndex": 1,
+              "Title": "Counter.cs",
+              "DocumentMoniker": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Scripts\\Counter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counter.cs",
+              "ToolTip": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Scripts\\Counter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counter.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T10:47:03.984Z",
+              "WhenOpened": "2025-12-03T15:32:14.546Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Timer.cs",
-              "DocumentMoniker": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Timer.cs",
-              "RelativeDocumentMoniker": "Assets\\Timer.cs",
-              "ToolTip": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Timer.cs",
-              "RelativeToolTip": "Assets\\Timer.cs",
+              "DocumentIndex": 0,
+              "Title": "CountView.cs",
+              "DocumentMoniker": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Scripts\\CountView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CountView.cs",
+              "ToolTip": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Scripts\\CountView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CountView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T15:24:06.805Z"
+              "WhenOpened": "2025-12-04T10:46:26.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CounView.cs",
+              "DocumentMoniker": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Scripts\\CounView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CounView.cs",
+              "ToolTip": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Scripts\\CounView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CounView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:29:22.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "onButtonClikc.cs",
+              "DocumentMoniker": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Scripts\\onButtonClikc.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\onButtonClikc.cs",
+              "ToolTip": "C:\\Users\\Ilyas\\Desktop\\UnityPortfolio\\CorutineTimer\\Assets\\Scripts\\onButtonClikc.cs",
+              "RelativeToolTip": "Assets\\Scripts\\onButtonClikc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:17:08.205Z"
             }
           ]
         }
